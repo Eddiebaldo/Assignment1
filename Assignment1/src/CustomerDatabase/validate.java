@@ -27,7 +27,7 @@ public class validate {
 			if ((Email.charAt(y)>=48 && Email.charAt(y)<=57)|| (Email.charAt(y)>=65 && Email.charAt(y)<=90)||
 					(Email.charAt(y)>=97&& Email.charAt(y)<= 122 )|| (Email.charAt(y)==64)|| (Email.charAt(y)==46)
 					|| (Email.charAt(y)==95)){
-				
+				//help on charAt 
 			}
 			else{
 				result = "Email contains invalid characters";
